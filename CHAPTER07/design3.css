@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body {
+	font-family:"나눔고딕", "맑은 고딕", "돋움", Dotum, Verdana, Tahoma;
+	font-size: 9pt;
+	line-height:170%
+	color: #333;
+	padding:0;
+	margin:0;		
+}
+
+img{
+	border:0px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	padding:0;
+	margin:0;
+}
+
+/*롤오버 스타일시트*/
+a.rollover img { border-width:0px; display:inline; }
+a.rollover img.over { display:none; }
+a.rollover:hover { border:0px }
+a.rollover:hover img { display:none; }
+a.rollover:hover img.over { display:inline; }
+
+
+/*상단 디자인*/
+
+.page_header{
+	width:1000px;
+}
+
+.toplogo{
+	float:left;
+	width:202px;
+	margin:21px 0px 11px 0px;
+}
+
+.topmini{
+	float:right;
+	margin:31px 0px 0px 0px;
+}
+.topmini ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.topmini ul li {
+	float: left;
+	margin-left: 25px;
+}
+.topmini ul li a {
+	color: #333;
+	text-decoration: none;
+}
+.topmini ul li a:hover {
+	color: #F69;
+	text-decoration: underline;
+}
+
+.topnav{
+	clear:both;
+	width:1000px;
+	text-align:left;
+	margin:0;
+	padding:0;
+	background-color:#323232;
+}
+.topnav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.topnav ul li {
+	float: left;	
+	display:block;
+	height: 31px;
+	overflow:hidden;
+}
+.topshadow{
+	float: left;
+	width:1000px;
+	height:25px;
+	background: url(images/topshadow.jpg) no-repeat;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+}
+

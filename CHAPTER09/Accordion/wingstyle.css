@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+body {
+	font-family: "나눔고딕", "맑은 고딕", "돋움", Dotum, Verdana, Tahoma;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;
+	background-color: #E7E7E7;
+}
+
+img{
+	border:0px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	padding:5px 0px 5px 0px;
+	margin: 0;
+}
+
+.wrap{
+	width:896px;
+	background-color:#FFF;
+	margin:0 auto;
+}
+.wrap:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+.toplogo {
+	margin-top: 26px;
+	float: left;
+	height: 46px;
+	width: 355px;
+	margin-bottom: 15px;
+}
+.page_header ul {
+	list-style-type: none;
+	margin-top: 15px;
+	margin-right: 12px;
+	padding-right: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #e60404;
+	float: right;
+
+}
+.page_header ul li a{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width:51px;
+	height: 12px;
+	display:block;
+}
+
+
+
+.topnav:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.mainimg {
+	clear: both;
+}
+
+.page_content {
+	padding: 12px;
+	clear: both;
+}
+
+.page_content:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.page_content .tabstyle {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 186px;
+	text-align: center;
+	vertical-align: middle;
+}
+.page_content .items {
+	clear: both;
+	padding-top: 10px;
+}
+
+.page_content .items:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.page_content .items .itemstyle {
+	width: 206px;
+	float: left;
+	margin-left: 10px;
+}
+
+.page_content .items .itemstyle a img {
+	border: 1px solid #CCC;
+}
+.page_content .items .itemstyle p {
+	text-align: center;
+	line-height: 170%;
+}
+
+
+/*상단메뉴*/
+
+.topnav {
+	clear: both;
+}
+.topnav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	list-style-position: inside;
+	
+}
+.topnav ul li a {
+	float: left;
+	display: block;
+	width: 20%;
+	text-align: center;
+	color: #777777;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px 0px 7px 0px;
+	color: #ffffff;
+	background:#89bcc9;
+}
+.topnav ul li a:hover {
+	color: #ffffff;
+	background:#437885;
+}

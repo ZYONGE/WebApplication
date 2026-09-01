@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "나눔고딕", "맑은 고딕", "돋움", Dotum, Verdana, Tahoma;
+	font-size: 9pt;
+	line-height:160%
+	color: #000;
+	padding:0px;
+	margin:0px;	
+}
+
+img{
+	border:0px;
+}
+
+
+.wrap{
+	width:925px;
+	margin:0 auto;	
+	padding:0px;
+}
+
+
+/*상단*/
+
+#page_header{
+	width: 925px;
+	clear: both;
+	float: left;
+
+		
+}
+
+#page_header .topmini {
+	clear: both;
+	float: right;
+	background-color: #efefef;
+	height: 30px;
+	width: 300px;
+	padding-left: 625px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+
+#page_header .topmini ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#page_header .topmini ul li {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+#page_header .p_header1 {
+	clear: both;
+	float: left;
+	height: 63px;
+}
+#page_header .p_header1 .toplogo {
+	float: left;
+	height: 33px;
+	width: 257px;
+	margin-top: 21px;
+}
+#page_header .p_header1 .topban {
+	height: 63px;
+	width: 279px;
+	float: left;
+	margin-left: 380px;
+}
+#page_header .p_header2 {
+	clear: both;
+	float: left;
+	width: 925px;
+	height: 42px;
+}
+#page_header .p_header2 ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#page_header .p_header2 ul li a {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	display: block;
+}
+
+
+
+/*중앙부분 스타일*/
+#page_center {
+	clear: both;
+	width: 925px;
+	margin: 0px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.titleframe1 img {
+	float: left;
+}
+.titleframe1 ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.titleframe1 ul li {
+	float: left;
+	display: block;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.titleframe2 {
+	clear: both;
+	padding: 10px;
+}
+.textbold {
+	font-weight:bold;
+}
+
+.items{
+	width:925px;
+}
+
+.items .item {
+	float:left;
+	margin-right:3px;
+}
+
+.items .item p{
+	text-align:center;
+	padding-bottom:15px;
+
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+
+.bgcolor{
+	background-color: #EEE3E8;
+}
+.borderstyle{
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #999;
+	border-bottom-color: #999;
+}
+.textbold{
+	font-weight:bold;
+}

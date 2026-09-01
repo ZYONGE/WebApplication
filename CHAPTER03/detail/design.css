@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{
+	margin:0px;
+	font-size:9pt;
+	font-family: "나눔고딕", "맑은 고딕", "돋움", Dotum, Verdana, Tahoma;
+}
+
+.wrap{
+	width:700px;
+	background:url(images/hand_01.jpg) no-repeat;
+	padding:140px 0px 0px 0px;
+}
+.thumimg{
+	padding:10px 0px 10px 17px;
+}
+.item1, item2, item3, item4, item5, item6, item7, item8{
+	padding:0px 0px 10px 0px;
+}
+
+.anchorbox{
+	padding:5px;
+	height:20px;
+	text-align:center;
+}

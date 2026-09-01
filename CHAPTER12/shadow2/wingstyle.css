@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+body {
+	font-family: "나눔고딕", "맑은 고딕", "돋움", Dotum, Verdana, Tahoma;
+	font-size: 10pt;
+	line-height:170%
+	color: #666;
+	background-image: url(images/bg.jpg);
+	background-position: 0px;
+	margin:0px;		
+	padding:0px;
+}
+
+img{
+	border:0px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	padding:5px 0px 5px 0px;
+	margin: 0;
+	color: #666;
+}
+
+.wrap{
+	width:896px;
+	background-color:#FFF;
+
+}
+.wrap:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+.toplogo {
+	margin-top: 26px;
+	float: left;
+	height: 46px;
+	width: 355px;
+	margin-bottom: 15px;
+}
+.page_header ul {
+	list-style-type: none;
+	margin-top: 15px;
+	margin-right: 12px;
+	padding-right: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666a89;
+	float: right;
+}
+.page_header ul li a{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width:51px;
+	height: 12px;
+	display:block;
+}
+
+.mainimg {
+	clear: both;
+}
+
+
+#eventbg {
+	position: absolute;
+	left: 493px;
+	top: 255px;
+	z-index: 1;
+	font-family: "Times New Roman", Times, serif;
+	color: #fff;
+	font-size: 30pt;
+	text-align: center;
+	padding: 5px 0px 3px 0px;
+	width: 369px;
+	background-color: #ff7200;
+	box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+}
+
+
+.page_content {
+	padding: 12px;
+	clear: both;
+}
+
+.page_content:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.page_content .tabstyle {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 186px;
+	text-align: center;
+	vertical-align: middle;
+}
+.page_content .items {
+	clear: both;
+	padding-top: 20px;
+}
+
+.page_content .items:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.page_content .items .itemstyle {
+	width: 206px;
+	float: left;
+	margin-left: 10px;
+}
+
+.page_content .items .itemstyle a img {
+	border: 1px solid #CCC;
+}
+.page_content .items .itemstyle p {
+	text-align: center;
+	line-height: 170%;
+}
+
+
+/*상단메뉴*/
+
+.topnav {
+	clear: both;
+}
+.topnav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	list-style-position: inside;
+	
+}
+.topnav ul li a {
+	float: left;
+	display: block;
+	width: 20%;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 7px 0px 8px 0px;
+	color: #FFFFFF;
+	background:#ff7200;
+}
+.topnav ul li a:hover {
+	color: #000000;
+	background:#d6d6e3;
+}

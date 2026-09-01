@@ -1,0 +1,24 @@
+@charset "utf-8";
+body {
+	font-family: "맑은 고딕", "굴림", "굴림체", "돋움", "돋움체";
+	font-size: 9pt;
+	line-height: 150%;
+	background-color: #d6d6d6;
+	background-image: url(images/topbg.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+}
+
+#wrap {
+	width: 900px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#wrap:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>롤오버 버튼 만들기</title>
+<link href="design5.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('images/top_m1_r.jpg','images/top_m2_r.jpg','images/top_m3_r.jpg','images/top_m4_r.jpg','images/top_m5_r.jpg','images/top_m6_r.jpg')">
+
+<!--상단메뉴 표현-->
+<div class="page_header">
+	<div class="toplogo"><img src="images/top_logo.jpg" width="136" height="85" alt="Beautiful Market" />
+    </div>
+    
+<div class="smallmenu">
+      <ul>
+        <li>이용안내</li>
+        <li>단체소개</li>
+        <li>입점문의</li>
+        <li>고객센터</li>
+      </ul> 
+</div> 
+    <div class="nav"><a href="sub.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','images/top_m1_r.jpg',1)"><img src="images/top_m1.jpg" width="97" height="34" id="Image7" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','images/top_m2_r.jpg',1)"><img src="images/top_m2.jpg" alt="가게소개" name="Image8" width="97" height="34" id="Image8" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','images/top_m3_r.jpg',1)"><img src="images/top_m3.jpg" alt="쇼핑몰" name="Image9" width="97" height="34" id="Image9" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','images/top_m4_r.jpg',1)"><img src="images/top_m4.jpg" alt="커뮤니티" name="Image10" width="97" height="34" id="Image10" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','images/top_m5_r.jpg',1)"><img src="images/top_m5.jpg" alt="고객센터" name="Image11" width="96" height="34" id="Image11" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','images/top_m6_r.jpg',1)"><img src="images/top_m6.jpg" alt="파트너" name="Image12" width="97" height="34" id="Image12" /></a></div>
+</div>
+
+<!--중앙라인과 이미지 표현-->
+<div class="line1"></div>
+<div class="mainimg"><img src="images/main_img.jpg" width="943" height="372" alt="뷰티플마켓은 착한 생산자들과 함께합니다." /></div>
+<div class="line2"></div>
+
+<!--중앙컨텐츠 표현-->
+<div class="page_content">
+	<div class="item1">
+          <div class="item1_title">
+           </div>
+            
+           <div class="item1_con"><img src="images/main_item1.jpg" width="672" height="217" alt="베스트상품" />
+           </div>  
+    </div>
+    
+    <div class="notice">
+            <div class="notice_title"><img src="images/main_noticet.jpg" width="97" height="31" alt="공지사항" /></div>
+            
+            <div class="notice_con">
+                <ul>
+                    <li><a href="#">4월 현대카드 무이자 할부 행사 </a></li>
+                    <li><a href="#">뷰티풀마켓 쇼핑몰 오픈 이벤트 행사합니다.</a></li>
+                    <li><a href="#">아름다운가게 서초점의 아름다운</a></li>
+                    <li><a href="#">[알림] 무료 택배에 대한 사항이..</a>.</li>
+                </ul>
+            </div>
+    		<div><img src="images/main_event.jpg" width="268" height="116" alt="네팔어린이기금이벤트" /></div>
+    </div>    
+		
+</div>
+
+
+<!--하단 정보 표현-->
+
+<div class="page_footer">
+	<div class="footerimg"><img src="images/main_part.jpg" width="940" height="48" /></div>
+    <div class="footercopy">COPYRIGHT &copy; 뷰티풀마켓 ALL RIGHTS RESERVED.</div>
+</div>
+
+</body>
+</html>

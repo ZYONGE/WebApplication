@@ -1,0 +1,119 @@
+@charset "utf-8";
+body {
+	font-family: "맑은 고딕", "굴림", "굴림체", "돋움", "돋움체";
+	font-size: 9pt;
+	line-height: 150%;
+	background-color: #D6D6D6;
+	background-image: url(images/topbg.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+}
+#wrap {
+	width: 900px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#wrap:after {
+	content:'';
+	display:block;
+	clear:both;
+}#page_header {
+	height: 102px;
+	width: 900px;
+}
+#toplogo {
+	float: left;
+	height: 35px;
+	width: 233px;
+	margin-top: 37px;
+}
+#topnav {
+	text-align: right;
+	float: right;
+	height: 22px;
+	width: 500px;
+	margin-top: 57px;
+}
+#topnav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#topnav ul li {
+	font-size: 11pt;
+	font-weight: bold;
+	display: inline;
+	margin-left: 15px;
+}
+#topnav ul li a {
+	color: #000;
+	text-decoration: none;
+}
+#topnav ul li a:hover {
+	color: #C95;
+	text-decoration: underline;
+}
+#page_center {
+	width: 900px;
+	margin-top: 10px;
+}
+#page_center:after {
+	content:'';
+	display:block;
+	clear:both;
+} 
+.mainimg {
+	float: left;
+	height: 414px;
+	width: 900px;
+}
+.bannerset {
+	clear: both;
+	float: left;
+	height: 127px;
+	width: 900px;
+	margin-top: 10px;
+}
+.banner1 {
+	background-image: url(images/ban1.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 100px;
+	width: 160px;
+	padding-top: 27px;
+	padding-left: 140px;
+}
+.bannerset a {
+	color: #000;
+	text-decoration: none;
+}
+.banner2 {
+	background-image: url(images/ban2.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 100px;
+	width: 160px;
+	padding-top: 27px;
+	padding-left: 140px;
+}
+.banner3 {
+	background-image: url(images/ban3.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 100px;
+	width: 160px;
+	padding-top: 27px;
+	padding-left: 140px;
+}#page_footer {
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+	clear: both;
+	float: left;
+	height: 60px;
+	width: 900px;
+	margin-top: 10px;
+	padding-top: 20px;
+}
