@@ -48,17 +48,6 @@ The purpose of this project is to:
 - Learn server-side web development with JSP and MySQL
 
 ---
-
-## Features
-
-This repository includes examples that demonstrate:
-
-- Static web page design and styling (HTML/CSS)
-- Interactive jQuery UI components (Accordion, MenuBar, TabPanels)
-- Popup windows and layered navigation menus
-- Responsive/mobile-friendly web layout techniques
-
-
 ## Project Structure
 
 ```
