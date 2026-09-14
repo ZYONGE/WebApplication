@@ -159,4 +159,8 @@ img{
 	text-align:center;
 	padding-bottom:15px;
 
+}.wrap #page_center .titleframe1 ul li a:hover {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #F00;
 }

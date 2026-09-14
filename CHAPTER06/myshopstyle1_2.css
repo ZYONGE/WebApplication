@@ -167,3 +167,6 @@ a:hover {
 	color: #C00;
 	text-decoration: underline;
 }
+.textitalic {
+	font-style: italic;
+}
