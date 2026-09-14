@@ -1,0 +1,70 @@
+@charset "utf-8";
+#map {
+	float: left;
+	height: 900px;
+	width: 900px;
+}
+.max1 {
+	float: left;
+	height: 300px;
+	width: 300px;
+}
+
+.max1 {
+	background-color: #F00;
+	float: left;
+	height: 320px;
+	width: 320px;
+}
+.max2 {
+	background-color: #A10;
+	float: left;
+	height: 320px;
+	width: 320px;
+}
+
+.max3 {
+	background-color: #3C5;
+	float: left;
+	height: 320px;
+	width: 320px;
+	clear: left
+}
+.max4 {
+	background-color: #12A;
+	float: left;
+	height: 160px;
+	width: 320px;
+}
+.max5 {
+	background-color: #2FF;
+	float: left;
+	height: 160px;
+	width: 320px;
+	clear: left;
+	margin-left:320px;
+	margin-top: -160px;
+}
+.max6 {
+	background-color: #1A5;
+	float: left;
+	height: 160px;
+	width: 340px;
+	clear:left;
+}
+.max7 {
+	background-color: #15D;
+	float: left;
+	height: 160px;
+	width: 340px;
+	clear:left;
+}
+.max8 {
+	background-color: #15D;
+	float: left;
+	height: 320px;
+	width: 340px;
+	margin-top:-160px;
+}
+
+
