@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+body {
+	font-family: "Apple SD Gothic Neo", "맑은 고딕", "나눔고딕", "돋움", Dotum, sans-serif;
+	font-size: 15px;
+	color: #1f2d2a;
+	background-color: #f5f6f2;
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	border: 0px;
+}
+
+.page_header {
+	width: 1200px;
+	height: 192px;
+	margin-top: 16px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.page_header img {
+	display: block;
+}
+
+.page_content {
+	display: flex;
+	width: 1198px;
+	min-height: 760px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	background-color: #ffffff;
+	border-right: 1px solid #e4e8df;
+	border-bottom: 1px solid #e4e8df;
+	border-left: 1px solid #e4e8df;
+}
+
+.leftmenu {
+	width: 228px;
+	overflow: hidden;
+	background-color: #fafbf8;
+	border-right: 1px solid #e4e8df;
+}
+.leftmenu img {
+	display: block;
+}
+
+.page_content .rightcon {
+	flex: 1;
+	padding-top: 36px;
+	padding-right: 44px;
+	padding-bottom: 50px;
+	padding-left: 44px;
+}
+.page_content .rightcon .titleimg {
+	display: block;
+	margin-bottom: 24px;
+}
+
+.page_content .tablestyle {
+	width: 100%;
+}
+
+#registerform {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #cad6c4;
+}
+#registerform th {
+	width: 240px;
+	padding-left: 24px;
+	text-align: left;
+	font-weight: bold;
+	background-color: #eff4eb;
+	border-right: 1px solid #cad6c4;
+	border-bottom: 1px solid #cad6c4;
+}
+#registerform tr td {
+	padding-top: 14px;
+	padding-right: 24px;
+	padding-bottom: 14px;
+	padding-left: 24px;
+	text-align: left;
+	border-bottom: 1px solid #cad6c4;
+}
+#registerform input[type="text"], #registerform input[type="file"] {
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 14px;
+	padding-bottom: 10px;
+	padding-left: 14px;
+	font-size: 15px;
+	color: #1f2d2a;
+	background-color: #ffffff;
+	border: 1px solid #ced7ca;
+	border-radius: 6px;
+}
+#registerform .help {
+	margin-top: 8px;
+	font-size: 12px;
+	line-height: 160%;
+	color: #7a847e;
+}
+#registerform tr .btnstyle {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	text-align: center;
+}
+#registerform tr .btnstyle img, #registerform tr .btnstyle input {
+	margin-right: 4px;
+	margin-left: 4px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.tablestyle #mylist {
+	width: 100%;
+	margin-top: 6px;
+	border-collapse: collapse;
+}
+.tablestyle #mylist tr th {
+	padding-top: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	text-align: left;
+	background-color: #eff3eb;
+	border-bottom: 1px solid #e2e7de;
+}
+.tablestyle #mylist tr td {
+	padding-top: 14px;
+	padding-right: 16px;
+	padding-bottom: 14px;
+	padding-left: 16px;
+	text-align: left;
+	border-bottom: 1px solid #e2e7de;
+}
