@@ -1,0 +1,11 @@
+# MovieOllama · OllamaPurchase · OllamaClient 접속 설정
+# 이 파일을 같은 폴더에 ai.properties 로 복사해 값을 채운다 (ai.properties 는 git 제외).
+# 파일이 없으면 실습 원본 값(root / 12345 / localhost:11435 / gemma3:12b)을 쓴다.
+
+db.url=jdbc:mysql://localhost:3306/web?characterEncoding=UTF-8&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+db.user=root
+db.password=12345
+
+# tools/ollama-forward.sh 가 stud08 클러스터의 Ollama 를 이 포트로 연다
+ollama.url=http://localhost:11435
+ollama.model=gemma3:12b
